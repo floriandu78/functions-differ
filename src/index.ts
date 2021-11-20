@@ -75,6 +75,7 @@ async function main() {
         .join(separator);
 
     console.log(functionsToRedeploy);
+    return functionsToRedeploy
 }
 
 main();
